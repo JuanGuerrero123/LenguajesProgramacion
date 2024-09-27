@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fondo2">
+
+    <ImageView
+        android:id="@+id/title_image"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/python"
+        android:layout_marginBottom="8dp" />
+
+
+    <TextView
+        android:id="@+id/python_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Python es un lenguaje de programación popular por su simplicidad y versatilidad. Se utiliza en diversas áreas como desarrollo web, ciencia de datos, inteligencia artificial, y automatización. Python es conocido por su sintaxis clara y su facilidad de aprendizaje, lo que lo convierte en una opción ideal tanto para principiantes como para profesionales experimentados."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/python_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="print('Hola, Mundo!')\ndef suma(a, b):\n    return a + b\n\nresultado = suma(3, 4)\nprint(resultado)"
+        android:textSize="16sp"
+        android:background="@color/light_gray"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+
+    <Spinner
+        android:id="@+id/language_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicio"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fondo3">
+
+    <ImageView
+        android:id="@+id/title_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/java"
+        android:layout_marginBottom="8dp" />
+
+
+
+
+    <TextView
+        android:id="@+id/java_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java es un lenguaje de programación de propósito general que es ampliamente utilizado en el desarrollo de aplicaciones empresariales, aplicaciones móviles (particularmente Android), y sistemas distribuidos. Su fortaleza radica en la portabilidad y en la robusta comunidad de desarrolladores que lo soporta."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/java_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="public class Main {\n    public static void main(String[] args) {\n        System.out.println('Hola, Mundo!');\n    }\n}"
+        android:textSize="16sp"
+        android:background="@color/light_gray"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+
+    <Spinner
+        android:id="@+id/language_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicio"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

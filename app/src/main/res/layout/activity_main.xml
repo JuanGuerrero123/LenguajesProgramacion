@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lenguajes de Programación"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/intro_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="En esta aplicación, exploraremos varios lenguajes de programación. Cada uno tiene sus propias características y aplicaciones. A continuación, selecciona un lenguaje para obtener más detalles y ver ejemplos de código."
+            android:textSize="18sp"
+            android:textAlignment="viewStart"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/black"/>
+
+
+        <ImageView
+            android:id="@+id/language_image"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:src="@drawable/uno"
+            android:layout_marginTop="20dp" />
+
+        <Spinner
+            android:id="@+id/language_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
+
+
+        <Button
+            android:id="@+id/btn_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inicio"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+</ScrollView>

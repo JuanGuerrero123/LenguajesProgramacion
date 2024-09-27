@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fondo">
+
+
+    <ImageView
+        android:id="@+id/title_image"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/kotlin"
+    android:layout_marginBottom="8dp" />
+
+
+
+    <TextView
+        android:id="@+id/kotlin_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kotlin es un lenguaje moderno de programación, diseñado para interoperar completamente con Java. Se ha convertido en el lenguaje oficial para el desarrollo de aplicaciones Android. Ofrece características avanzadas como la programación funcional y la sintaxis concisa."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/kotlin_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fun main() {\n    println('Hola, Mundo!')\n}"
+        android:textSize="16sp"
+        android:background="@color/light_gray"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+
+    <Spinner
+        android:id="@+id/language_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicio"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
